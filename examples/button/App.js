@@ -5,7 +5,10 @@ var App = React.createClass({
 
   render: function(){
     return (
-      <Kudos firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter4'/>
+      <div>
+        <Kudos firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter4'/>
+        <Kudos allowMultiple={true} firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter6'/>
+      </div>
     )
   }
 });
