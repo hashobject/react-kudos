@@ -6,8 +6,9 @@ var App = React.createClass({
   render: function(){
     return (
       <div>
-        <Kudos firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter4'/>
-        <Kudos allowMultiple={true} firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter6'/>
+        <Kudos isButton={true} firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter4'/>
+        <Kudos isButton={true} allowMultiple={true} firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter6'/>
+        <Kudos isButton={true} firebaseHost="https://counter-button.firebaseio.com/" firebaseResourceId='counter7'/>
       </div>
     )
   }
